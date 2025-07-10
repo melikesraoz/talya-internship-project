@@ -1,0 +1,185 @@
+/* Font ve reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: url("assets/clouds2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Ana container */
+.container {
+  max-width: 800px;
+  width: 100%;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Başlık */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffafcc;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #cdb4db;
+}
+
+/* Proje kutusu */
+.project-box {
+  background: rgba(255, 200, 221, 0.15);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #ffc8dd;
+  margin-bottom: 2rem;
+}
+
+.project-box h2 {
+  margin-bottom: 1rem;
+  color: #a2d2ff;
+}
+
+.project-box p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.tech {
+  color: #cdb4db;
+  font-weight: bold;
+}
+
+/* Buton */
+.repo-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #a2d2ff;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  border: none;
+}
+
+.repo-btn:hover {
+  background: #ffafcc;
+  cursor: pointer;
+}
+
+/* Diğer projeler bölümü */
+.other-projects {
+  background-color: rgba(189, 224, 254, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  text-align: center;
+  border: 1px solid #bde0fe;
+}
+
+.other-projects h3 {
+  color: #ffafcc;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.other-projects p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.github-link {
+  background-color: #a2d2ff;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.github-link:hover {
+  background-color: #ffc8dd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .project-box,
+  .other-projects {
+    padding: 1rem;
+  }
+}
+
+.about-me {
+  background-color: rgba(255, 200, 221, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  border: 1px solid #ffc8dd;
+}
+
+.about-me h3 {
+  font-size: 1.5rem;
+  color: #ffafcc;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
