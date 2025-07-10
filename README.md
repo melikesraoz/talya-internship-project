@@ -1,3 +1,4 @@
+
 # 🤖 AI Chatbot – 2025 Yaz Staj Projesi
 
 Merhaba! Ben **Melike Esra Öz**, Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.  
@@ -35,3 +36,4 @@ Projeye ait şık tanıtım sayfasını aşağıdaki bağlantıdan inceleyebilir
 > 3. Sınıf Bilgisayar Mühendisliği Öğrencisi  
 > Akdeniz Üniversitesi  
 > [GitHub](https://github.com/melikesraoz)
+
