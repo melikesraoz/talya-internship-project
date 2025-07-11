@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: url("assets/clouds2.jpg") no-repeat center center fixed;
+  background: url("assets/clouds2.jpg") no-repeat center center;
+  background-attachment: scroll;
   background-size: cover;
   color: #1a1a1a;
   min-height: 100vh;
@@ -15,6 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  background-repeat: no-repeat;
+  background-position: top center;
+
 }
 
 /* Ana container */
@@ -69,7 +73,7 @@ header p {
 .project-box p {
   margin-bottom: 0.5rem;
   line-height: 1.5;
-  color: #333;
+  color: #3f1a28;
 }
 
 .tech {
@@ -83,7 +87,7 @@ header p {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   background: #a2d2ff;
-  color: #1a1a1a;
+  color: #be597e;
   text-decoration: none;
   border-radius: 8px;
   transition: background 0.3s ease;
@@ -107,19 +111,19 @@ header p {
 }
 
 .other-projects h3 {
-  color: #ffafcc;
+  color: #be597e;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .other-projects p {
-  color: #444;
+  color: #3f1a28;
   margin-bottom: 1rem;
 }
 
 .github-link {
-  background-color: #a2d2ff;
-  color: #1a1a1a;
+  background-color: #be597e;
+  color: #bde0fe;
   text-decoration: none;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
@@ -167,19 +171,32 @@ footer {
 
 .about-me h3 {
   font-size: 1.5rem;
-  color: #ffafcc;
+  color: #be597e;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .about-me p {
   font-size: 1.05rem;
-  color: #333;
+  color: #3f1a28;
   line-height: 1.6;
   white-space: pre-line;
 }
 html {
   scroll-behavior: smooth;
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.6s ease-out;
+  will-change: transform, opacity;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
